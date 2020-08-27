@@ -1,19 +1,19 @@
 .tab-manager {
-  color: #03f;
+  color: #f18b6c;
 }
 
 .tab-manager .tab {
-  padding: 20px;
-  border-right: 3px solid #03f;
+  padding: 30px;
+  border-right: 3px solid #f18b6c;
 }
 
 .tab-manager .tab:hover {
-  color: #00CCFF;
-  border-right: 3px solid #00CCFF;
+  color: #f2d0b6;
+  border-right: 3px solid #f2d0b6;
 }
 
 .tab-manager .tab.selected-tab {
-  color: #00CCFF;
-  border-right: 3px solid #00CCFF;
+  color: #f2d0b6;
+  border-right: 3px solid #f2d0b6;
 }
 /*# sourceMappingURL=tabs.css.map */

@@ -3,11 +3,6 @@ import './welcome.css'
 import ContactForm from '../contactForm/contactForm'
 
 const Welcome = () => {
-
-    const [ data, useData ] = useState({
-
-    })
-
     return (
         <div className="welcome">
             <style jsx>{`

@@ -3,7 +3,7 @@
 }
 
 .testimonials h2 {
-  color: #3163BE;
+  color: #8e989a;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
@@ -12,7 +12,7 @@
 .testimonials hr {
   margin: 20px auto;
   width: 10%;
-  border: 2px solid #00CCFF;
+  border: 2px solid #f2d0b6;
 }
 
 .testimonials .testimonials-cards {

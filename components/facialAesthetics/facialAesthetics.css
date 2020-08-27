@@ -15,14 +15,14 @@
 }
 
 .container .content .content-data h1 {
-  color: #3163BE;
+  color: #8e989a;
   font-weight: 600;
 }
 
 .container .content .content-data hr {
   margin: 10px 0px;
   width: 30%;
-  border: 2px solid #00CCFF;
+  border: 2px solid #f2d0b6;
 }
 
 .container .content .content-data .treatment-data {
