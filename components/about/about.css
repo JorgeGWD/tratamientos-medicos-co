@@ -60,7 +60,7 @@
 
 .about .about-content .about-video div {
   margin: auto;
-  width: 47vw !important;
+  max-width: 47vw !important;
   height: auto;
 }
 
