@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import Link from 'next/link'
+import ReactPlayer from "react-player"
 
 const About = () => {
     return (
@@ -27,7 +28,9 @@ const About = () => {
                         <button className="btn-withe-blue">Solicitar información</button>
                     </Link>
                 </div>
-                <div></div>
+                <div className="about-video">
+                    <ReactPlayer url="https://www.youtube.com/watch?v=fusF3D2Vddk" />
+                </div>
             </div>
         </div>
     )

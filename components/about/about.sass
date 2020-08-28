@@ -16,11 +16,12 @@
         z-index: 10
         position: relative
         display: grid
-        grid-template-columns: 60% 40%
+        grid-template-columns: 1fr auto
+        grid-gap: 40px
         margin: auto
         max-width: 1200px
         .about-text
-            padding: 0px 40px
+            // padding: 0px 40px
             color: #fff
             // background-color: rgba($primary-color,0.92)
             h2
@@ -37,6 +38,12 @@
                 span
                     color: $primary-color
                     font-weight: 600
+        .about-video
+            align-self: center
+            div
+                margin: auto
+                width: 47vw !important
+                height: auto
 
 @media screen and ( max-width: 850px )
     .about

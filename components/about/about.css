@@ -19,14 +19,14 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 60% 40%;
-      grid-template-columns: 60% 40%;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+  grid-gap: 40px;
   margin: auto;
   max-width: 1200px;
 }
 
 .about .about-content .about-text {
-  padding: 0px 40px;
   color: #fff;
 }
 
@@ -50,6 +50,18 @@
 .about .about-content .about-text p span {
   color: #f18b6c;
   font-weight: 600;
+}
+
+.about .about-content .about-video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.about .about-content .about-video div {
+  margin: auto;
+  width: 47vw !important;
+  height: auto;
 }
 
 @media screen and (max-width: 850px) {
