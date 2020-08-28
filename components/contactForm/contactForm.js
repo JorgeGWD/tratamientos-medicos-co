@@ -43,7 +43,7 @@ const ContactForm = () => {
         <div className="contact-form">
             <h2>Escríbenos y obtén asesoría inicial personalizada y sin costo</h2>
             <form onSubmit={onSubmit}>
-                <input type="text" name="name" placeholder="Nombre completo" onChange={handleChange} />
+                <input type="text" name="name" placeholder="Nombre y apellido" onChange={handleChange} />
                 <input type="tel" name="phone" placeholder="Teléfono" onChange={handleChange} />
                 <input type="email" name="email" placeholder="E-mail" onChange={handleChange} />
                 <select name="selector" onChange={e => handleOption(e)}>

@@ -1,14 +1,28 @@
+@import ../../pages/sass/_variables
+
 .about
-    padding: 0px 40px
+    position: relative
+    padding: 80px 40px
+    &::before
+        z-index: 0
+        content: ''
+        position: absolute
+        top: 0px
+        right: 0px
+        bottom: 0px
+        left: 0px
+        background-color: rgba(0, 0, 0, .5)
     .about-content
+        z-index: 10
+        position: relative
         display: grid
         grid-template-columns: 60% 40%
         margin: auto
         max-width: 1200px
         .about-text
-            padding: 80px 40px
+            padding: 0px 40px
             color: #fff
-            background-color: rgba(#f18b6c,0.92)
+            // background-color: rgba($primary-color,0.92)
             h2
                 font-size: 40px
                 text-align: center
@@ -19,7 +33,10 @@
             p
                 margin-bottom: 20px
                 font-size: 18px
-                line-height: 24px
+                line-height: 28px
+                span
+                    color: $primary-color
+                    font-weight: 600
 
 @media screen and ( max-width: 850px )
     .about

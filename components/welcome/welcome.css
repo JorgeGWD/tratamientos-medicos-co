@@ -4,7 +4,7 @@
   display: grid;
   padding: 50px 20px;
   color: #fff;
-  background-color: blue;
+  background-color: #f2d0b6;
 }
 
 .welcome::before {
