@@ -4,7 +4,7 @@ import './contactNumbers.css'
 const ContactNumbers = () => {
 
     const [ data, useData ] = useState({
-        phoneNumber: '744 8989',
+        phoneNumber: '749 8903',
         extNumber: '601 - 316 509 5657'
     })
 

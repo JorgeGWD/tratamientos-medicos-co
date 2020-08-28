@@ -63,12 +63,14 @@ const ContactForm = () => {
                     <label htmlFor="privaci">He leído y acepto la <a href="">política de privacidad</a></label>
                 </div>
                 <button className="btn-default" type="submit" onClick={openModal}>Solicitar información</button>
-                {open ? (
-                    <Modal
-                        close={closeModal}
-                        render={() => <h1>This is a Modal using Portals!</h1>}
-                    />
-                ) : null}
+                {
+                    open ? (
+                        <Modal
+                            close={closeModal}
+                            render={() => <h1>This is a Modal using Portals!</h1>}
+                        />
+                    ) : null
+                }
             </form>
         </div>
     )

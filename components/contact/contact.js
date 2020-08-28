@@ -26,18 +26,13 @@ const Contact = () => {
                             <h3>Direccion</h3>
                             <div className="contact-address-data">
                                 <div className="contact-address-one">
-                                    <h4>Galerías:</h4>
-                                    <p>Cl. 53b #28-39</p>
-                                    <p>Bogotá - Colombia</p>
-                                </div>
-                                <div className="contact-address-two">
-                                    <h4>Kennedy:</h4>
-                                    <p>Calle 26 Sur # 73D-73</p>
+                                    <h4>Restrepo:</h4>
+                                    <p>Crr. 24 #15-19 Sur</p>
                                     <p>Bogotá - Colombia</p>
                                 </div>
                                 <div className="contact-address-three">
                                     <h4>Modelia:</h4>
-                                    <p>CCalle 24 # 74A-37</p>
+                                    <p>Cll. 24 #74a-37</p>
                                     <p>Bogotá - Colombia</p>
                                 </div>
                             </div>
