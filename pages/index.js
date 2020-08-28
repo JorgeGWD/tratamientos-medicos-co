@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import Header from '../components/header/header'
 import favicon from '../assets/favicon-32x32.png'

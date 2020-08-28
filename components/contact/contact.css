@@ -15,7 +15,7 @@
 }
 
 .contact .contact-content {
-  z-index: 100;
+  z-index: 10;
   position: relative;
   display: -ms-grid;
   display: grid;

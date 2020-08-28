@@ -19,7 +19,7 @@
 }
 
 .welcome .welcome-content {
-  z-index: 100;
+  z-index: 10;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 55% 45%;

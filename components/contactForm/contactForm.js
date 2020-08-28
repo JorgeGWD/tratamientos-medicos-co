@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './contactForm.css'
+import Modal from '../modal/modal'
+import useModal from '../useModal/useModal'
 
 const ContactForm = () => {
 
@@ -14,6 +16,8 @@ const ContactForm = () => {
     const [ addOption, setAddOption ] = useState(["Elija área a tratar", "Estetica facial", "Estética corporal", "Depilación laser", "Estética masculina", "Otras especialidades"])
 
     const Add = addOption.map(Add => Add)
+
+    const { open, openModal, closeModal } = useModal()
 
     const handleOption = (e) => {
         // console.clear(),
@@ -58,7 +62,13 @@ const ContactForm = () => {
                     <input type="checkbox" id="privaci"/>
                     <label htmlFor="privaci">He leído y acepto la <a href="">política de privacidad</a></label>
                 </div>
-                <button className="btn-default" type="submit">Solicitar información</button>
+                <button className="btn-default" type="submit" onClick={openModal}>Solicitar información</button>
+                {open ? (
+                    <Modal
+                        close={closeModal}
+                        render={() => <h1>This is a Modal using Portals!</h1>}
+                    />
+                ) : null}
             </form>
         </div>
     )
