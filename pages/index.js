@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import Header from '../components/header/header'
+import favicon from '../assets/favicon-32x32.png'
 import './sass/styles.css'
 import Welcome from '../components/welcome/welcome'
 import OurAdvantages from '../components/ourAdvantages/ourAdvantages'
@@ -17,6 +18,7 @@ import OtherSpecialties from '../components/otherSpecialties/otherSpecialties'
 const IndexPage = () => (
   <>
     <Head>
+      <link rel="icon" type="image/png" sizes="32x32" href={favicon} />
       <title>Luvania | Innovación estética</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>

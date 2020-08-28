@@ -35,6 +35,11 @@ const Contact = () => {
                                     <p>Calle 26 Sur # 73D-73</p>
                                     <p>Bogotá - Colombia</p>
                                 </div>
+                                <div className="contact-address-three">
+                                    <h4>Modelia:</h4>
+                                    <p>CCalle 24 # 74A-37</p>
+                                    <p>Bogotá - Colombia</p>
+                                </div>
                             </div>
                         </div>
                         <div className="contact-data-data">
