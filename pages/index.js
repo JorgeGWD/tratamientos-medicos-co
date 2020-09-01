@@ -13,6 +13,8 @@ import FacialAesthetics from '../components/facialAesthetics/facialAesthetics'
 import BodyAesthetics from '../components/bodyAesthetics/bodyAesthetics'
 import MaleAesthetics from '../components/maleAesthetics/maleAesthetics'
 import OtherSpecialties from '../components/otherSpecialties/otherSpecialties'
+import WhatsAppForm from '../components/commons/whatsAppForm/whatsAppForm'
+import ChatBotForm from '../components/commons/chatBotForm/chatBotForm'
 
 const IndexPage = () => (
   <>
@@ -33,6 +35,8 @@ const IndexPage = () => (
     <About />
     <Testimonials />
     <Contact />
+    <WhatsAppForm />
+    <ChatBotForm />
   </>
 )
 

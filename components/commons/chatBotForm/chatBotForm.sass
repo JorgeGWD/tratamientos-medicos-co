@@ -1,0 +1,144 @@
+.chat-bot-form
+    z-index: 100
+    position: fixed
+    right: 20px
+    bottom: 90px
+    width: 380px
+    border-radius: 10px
+    overflow: hidden
+    opacity: 1
+    transition: all .5s ease-out
+    .chat-bot-header
+        display: grid
+        grid-template-columns: auto 1fr auto auto
+        grid-gap: 10px
+        padding: 10px
+        color: #fff
+        background-color: #2f76aa
+        img
+            width: 40px
+            height: auto
+        p
+            align-self: center
+        .bot-info
+            display: grid
+            grid-template-rows: repeat(2,1fr)
+            grid-gap: 5px
+            align-self: center
+            p
+                font-size: 13px
+            .bot-status
+                display: grid
+                grid-template-columns: auto 1fr
+                grid-gap: 5px
+                span
+                    width: 10px
+                    height: 10px
+                    align-self: center
+                    background-color: #2ecc71
+                    border-radius: 50%
+        .bot-refresh, .btn-close
+            cursor: pointer
+    .chat-bot-body
+        padding: 15px
+        max-height: 74%
+        min-height: 400px
+        background-color: #e7eef5
+        overflow: auto
+        .message-bubble
+            position: relative
+            margin-bottom: 15px
+            padding: 15px
+            background-color: #fff
+            border-radius: 10px
+            box-shadow: 2px 7px 5px -4px rgba(97,92,97,.3)
+            &.loading
+                width: fit-content
+            p.message-text
+                color: #455a64
+                font-size: 16px
+            &::after
+                content: ""
+                width: 0
+                height: 0
+                position: absolute
+                border-left: 7px solid transparent
+                border-right: 7px solid #fff
+                border-top: 7px solid #fff
+                border-bottom: 7px solid transparent
+                left: -11px
+                top: 10px
+    .chat-bot-footer
+        display: grid
+        grid-template-columns: 1fr auto
+        padding-bottom: 10px
+        background-color: #e7eef5
+        input
+            padding: 15px 10px
+            border: none
+            &:focus
+                outline: none
+        button
+            padding: 10px
+            background-color: #fff
+            border: none
+            cursor: pointer
+            img
+                width: 20px
+                height: auto
+    &.hide
+        bottom: 0px
+        visibility: hidden
+        opacity: 0
+        transition: all .5s ease-out
+
+
+.chat-bot-greeting
+    z-index: 100
+    position: fixed
+    display: grid
+    grid-template-columns: 1fr auto
+    grid-gap: 15px
+    right: 20px
+    bottom: 20px
+    .greeting-message
+        position: relative
+        align-self: center
+        border-radius: 10px
+        background-color: #fff
+        opacity: 1
+        box-shadow: 2px 7px 5px -4px rgba(97,92,97,.3)
+        transition: all .5s ease-out
+        &::before
+            content: ' '
+            position: absolute
+            width: 0
+            height: 0
+            left: auto
+            right: -15px
+            top: 34%
+            bottom: auto
+            border: 8px solid
+            border-color: transparent transparent transparent #fff
+        p
+            padding: 15px
+            color: #455a64
+        &.hide
+            bottom: 0px
+            visibility: hidden
+            opacity: 0
+            transition: all .5s ease-out
+    .chat-bot-button
+        cursor: pointer
+        img
+            width: 60px
+            height: auto
+        span
+            z-index: 100
+            position: absolute
+            right: 0px
+            bottom: 10px
+            width: 15px
+            height: 15px
+            background-color: #2ecc71
+            border-radius: 50%
