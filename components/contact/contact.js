@@ -1,5 +1,4 @@
 import React from 'react'
-import './contact.css'
 import ContactForm from '../contactForm/contactForm'
 import locationPin from '../../assets/location-pin.svg'
 import phone from '../../assets/phone_thin.svg'
