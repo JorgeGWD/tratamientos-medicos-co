@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import './contactNumbers.css'
-
 const ContactNumbers = () => {
 
     const [ data, useData ] = useState({
