@@ -1,5 +1,4 @@
 import React from 'react'
-import './about.css'
 import Link from 'next/link'
 import ReactPlayer from "react-player"
 
