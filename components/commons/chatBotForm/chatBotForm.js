@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import './chatBotForm.css'
 import botAvatar from '../../../assets/bot-avatar.png'
 import iconSubmit from '../../../assets/icon-submit.svg'
 
