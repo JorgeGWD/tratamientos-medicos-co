@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './maleAesthetics.css'
 import TabsContainer from '../tabsContainer/tabsContainer'
 
 const MaleAesthetics = () => {
