@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './whatsAppInputs.css'
 import WhatsAppImg from '../../../assets/icon_whatsapp.png'
 import useForm from './useForm'
 import validate from './validateInfo'
