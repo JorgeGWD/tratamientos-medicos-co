@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './tabsContainer.css'
 import TabManager from './tabs/tabs'
 import TabsContent from './tabsContent/tabsContent';
 
