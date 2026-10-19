@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './certificationsAndPermits.css'
 import minSalud from '../../assets/minsalud.png'
 import alcaldiaBogota from '../../assets/alcaldia-bogota.png'
 import superSalud from '../../assets/supersalud.png'
