@@ -1,0 +1,27 @@
+import React from 'react'
+import '../components/sass/styles.css'
+import '../components/about/about.css'
+import '../components/header/header.css'
+import '../components/header/logo/logo.css'
+import '../components/header/contactNumbers/contactNumbers.css'
+import '../components/welcome/welcome.css'
+import '../components/ourAdvantages/ourAdvantages.css'
+import '../components/discount/discount.css'
+import '../components/certificationsAndPermits/certificationsAndPermits.css'
+import '../components/contact/contact.css'
+import '../components/contactForm/contactForm.css'
+import '../components/testimonials/testimonials.css'
+import '../components/facialAesthetics/facialAesthetics.css'
+import '../components/bodyAesthetics/bodyAesthetics.css'
+import '../components/maleAesthetics/maleAesthetics.css'
+import '../components/otherSpecialties/otherSpecialties.css'
+import '../components/tabsContainer/tabsContainer.css'
+import '../components/tabsContainer/tabs/tabs.css'
+import '../components/tabsContainer/tabsContent/tabsContent.css'
+import '../components/commons/chatBotForm/chatBotForm.css'
+import '../components/commons/whatsAppForm/whatsAppInputs.css'
+import '../components/modal/modal.sass'
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
