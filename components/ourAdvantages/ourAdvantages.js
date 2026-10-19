@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './ourAdvantages.css'
 import Link from 'next/link'
 import chatBubble from '../../assets/chat-bubble.svg'
 import thumbsUp from '../../assets/thumbs-up.svg'
