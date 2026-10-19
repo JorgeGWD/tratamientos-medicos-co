@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './testimonials.css'
 import testimonials01 from '../../assets/testimonials-01.jpg'
 import testimonials02 from '../../assets/testimonials-02.jpg'
 import testimonials03 from '../../assets/testimonials-03.jpg'
