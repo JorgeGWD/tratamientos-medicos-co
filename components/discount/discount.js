@@ -1,5 +1,4 @@
 import React from 'react'
-import './discount.css'
 import Link from 'next/link'
 
 const Discount = () => {
