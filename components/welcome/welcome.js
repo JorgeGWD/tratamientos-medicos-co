@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './welcome.css'
 import ContactForm from '../contactForm/contactForm'
 
 const Welcome = () => {
