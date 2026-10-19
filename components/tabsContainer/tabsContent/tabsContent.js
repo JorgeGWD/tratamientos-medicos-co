@@ -1,5 +1,4 @@
 import React from 'react'
-import './tabsContent.css'
 import Link from 'next/link'
 
 const TabsContent = ({ data, activeTab }) => {
