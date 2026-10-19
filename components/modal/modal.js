@@ -1,5 +1,4 @@
 import React from "react"
-import './modal.sass'
 import Portal from "../portal/portal"
 import useModal from '../useModal/useModal'
 
