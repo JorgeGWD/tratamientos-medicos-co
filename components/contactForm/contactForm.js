@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './contactForm.css'
 import Modal from '../modal/modal'
 import useModal from '../useModal/useModal'
 
