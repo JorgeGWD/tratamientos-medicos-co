@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './bodyAesthetics.css'
 import TabsContainer from '../tabsContainer/tabsContainer'
 
 const BodyAesthetics = () => {
