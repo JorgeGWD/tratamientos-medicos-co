@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/sass/styles.css'
+import './sass/styles.css'
 import '../components/about/about.css'
 import '../components/header/header.css'
 import '../components/header/logo/logo.css'
