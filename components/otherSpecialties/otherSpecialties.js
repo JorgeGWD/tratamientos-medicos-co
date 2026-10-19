@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './otherSpecialties.css'
 import TabsContainer from '../tabsContainer/tabsContainer'
 
 const OtherSpecialties = () => {
