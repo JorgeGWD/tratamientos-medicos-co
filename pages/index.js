@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/header/header'
 import favicon from '../assets/favicon-32x32.png'
-import './sass/styles.css'
 import Welcome from '../components/welcome/welcome'
 import OurAdvantages from '../components/ourAdvantages/ourAdvantages'
 import Discount from '../components/discount/discount'
